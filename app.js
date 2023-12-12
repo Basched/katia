@@ -1,15 +1,12 @@
 const { createBot, createProvider, createFlow, addKeyword } = require('@bot-whatsapp/bot')
 
-const QRPortalWeb = require('@bot-whatsapp/portal')
 const BaileysProvider = require('@bot-whatsapp/provider/baileys')
 const MockAdapter = require('@bot-whatsapp/database/mock')
 const ServerHttp = require('./src/http')
+const PORT = process.env.PORT ?? 3001
 
 
 const flowPrincipal = addKeyword(['hola']).addAnswer('🙌 Hola bienvenido a este *Chatbot*')
-
-
-const PORT = process.env.PORT ?? 3001
 
 const serverHttp = new ServerHttp(PORT)
 
@@ -25,8 +22,6 @@ const main = async () => {
     })
 
     serverHttp.initialization()
-
-    QRPortalWeb()
 }
 
 main()
