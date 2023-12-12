@@ -1,0 +1,60 @@
+[handleMsg]:  {
+  key: {
+    remoteJid: '51920648585@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB049D6BAC0D0D7579654',
+    participant: undefined
+  },
+  messageTimestamp: 1702424377,
+  pushName: 'Joe S.',
+  broadcast: false,
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage {
+      text: 'hola',
+      contextInfo: [ContextInfo],
+      inviteLinkGroupTypeV2: 0
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'hola',
+  from: '51920648585'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_c07d8caa-61fe-4c3a-94ab-10b39ae04242',
+  keyword: 'key_adbec17b-d67d-46b4-905b-ac02a9604bc0',
+  answer: 'Buenas bienvenido a mi ecommerce',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '7120e31a895364b2e993e2648bf8de87'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_5b18f829-0ddb-464b-ab49-928171f52140',
+  keyword: 'ans_c07d8caa-61fe-4c3a-94ab-10b39ae04242',
+  answer: '¿Como puedo ayudarte el dia de hoy?',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '99e45ed182744f494fb29be089260201'
+}
