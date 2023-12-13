@@ -2,10 +2,10 @@
   key: {
     remoteJid: '51920648585@s.whatsapp.net',
     fromMe: false,
-    id: '3EB049D6BAC0D0D7579654',
+    id: '3EB0C6532DD9718110554F',
     participant: undefined
   },
-  messageTimestamp: 1702424377,
+  messageTimestamp: 1702437227,
   pushName: 'Joe S.',
   broadcast: false,
   message: Message {
@@ -23,8 +23,8 @@
   from: '51920648585'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_c07d8caa-61fe-4c3a-94ab-10b39ae04242',
-  keyword: 'key_adbec17b-d67d-46b4-905b-ac02a9604bc0',
+  ref: 'ans_5ba95c22-945f-40f7-b1a1-5b736a7bbaf3',
+  keyword: 'key_2642b3f4-1b17-4572-962d-9ab9d33a8ae6',
   answer: 'Buenas bienvenido a mi ecommerce',
   options: {
     media: null,
@@ -38,11 +38,11 @@
     keyword: {},
     callback: false
   },
-  refSerialize: '7120e31a895364b2e993e2648bf8de87'
+  refSerialize: '6e00fab4db5f0ef07489b807444e02e8'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_5b18f829-0ddb-464b-ab49-928171f52140',
-  keyword: 'ans_c07d8caa-61fe-4c3a-94ab-10b39ae04242',
+  ref: 'ans_4018f8ce-ec3c-42af-bc70-b34f47d51c4e',
+  keyword: 'ans_5ba95c22-945f-40f7-b1a1-5b736a7bbaf3',
   answer: '¿Como puedo ayudarte el dia de hoy?',
   options: {
     media: null,
@@ -56,5 +56,5 @@
     keyword: {},
     callback: false
   },
-  refSerialize: '99e45ed182744f494fb29be089260201'
+  refSerialize: 'da6caadf01712493d9eeebb25ee601ca'
 }

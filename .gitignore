@@ -1,2 +1,7 @@
+*_sessions
+.env
+*.log
+*.png
 node_modules
-bot_sessions
+public/*
+!public/.gitkeep
